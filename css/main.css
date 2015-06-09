@@ -1,6 +1,7 @@
 html {
     background-color: #FFFFFF;
     font-family: 'Roboto' "Helvetica Nueu" sans-serif;
+    letter-spacing: 0.14rem;
 }
 
 .color-bar {
@@ -21,11 +22,13 @@ html {
 }
 
 .company-name {
-    width: 13rem;
+    width: 16rem;
     float: left;
-    padding-top: 0.8rem;
+    margin-top: 0;
+    padding-top: 1.2rem;
     padding-left: 0.5rem;
     font-size: 1.5rem;
+    font-family: "Rhodium Libre" "Georgia" serif;
 }
 
 .links {
@@ -54,22 +57,47 @@ html {
 }
 
 .intro {
-    margin-top: 3rem;
+    margin: 3rem 15% 0 15%;
+    display: inline-block;
     position: relative;
 }
 
 .president {
     height: 10rem;
     width: 10rem;
-    margin-left: 3rem;
+    padding-left: 3rem;
+    float: left;
 }
 
 .photo-caption {
-    margin: 0 0 0 3rem;
+    padding: 9rem 0 0 1rem;
+    float: left;
+    position: absolute;
 }
 
 .mission-title {
-    font-family: 'Rhodium Libre' 'Georgia' sans-serif;
-    position: absolute;
-    margin: 3rem 0 0 25rem;
-    
+    font-family: 'Rhodium Libre' 'Georgia' serif;
+    padding-left: 23rem;
+    margin: 0;
+    color: #BE9B7B;
+}
+
+.mission-title > li {
+    list-style: none;
+}
+
+.mission {
+    padding-left: 23rem;
+    margin: 0;
+}
+
+.mission > li {
+    list-style: none;
+    margin: 0;
+    max-width: 80%
+}
+
+footer {
+    text-align: center;
+    margin: 0;
+    color: #BE9B7B;
