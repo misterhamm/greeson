@@ -1,35 +1,75 @@
 html {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
+    font-family: 'Roboto' "Helvetica Nueu" sans-serif;
 }
 
 .color-bar {
-    background-color: #C7D0D5;
+    background-color: #BE9B7B;
     height: 0.8rem;
 }
 
 .nav-bar {
     width: 100%;
     height: 9rem;
+    position: fixed;
+    background-color: #FFFFFF;
+    z-index: 9999;
 }
 
 .logo {
     float: left;
 }
 
+.company-name {
+    width: 13rem;
+    float: left;
+    padding-top: 0.8rem;
+    padding-left: 0.5rem;
+    font-size: 1.5rem;
+}
+
 .links {
-    display: inline-block;
     list-style: none;
     float: right;
+    margin: 0;
+}
+
+.links > li {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem 1rem 1.5rem;
+}
+
+.home {
+    background-color: #BE9B7B;
+    border-radius: 0 0 2rem 2rem;
 }
 
 .hero {
     background-image: url("../images/pasta-527286.jpg");
     background-repeat: no-repeat;
-    background-position: -40%;
+    /*background-position: 5%;*/
     background-size: cover;
-    padding: 21rem 0;
+    padding: 021rem 0;
 }
 
 .intro {
     margin-top: 3rem;
+    position: relative;
 }
+
+.president {
+    height: 10rem;
+    width: 10rem;
+    margin-left: 3rem;
+}
+
+.photo-caption {
+    margin: 0 0 0 3rem;
+}
+
+.mission-title {
+    font-family: 'Rhodium Libre' 'Georgia' sans-serif;
+    position: absolute;
+    margin: 3rem 0 0 25rem;
+    
