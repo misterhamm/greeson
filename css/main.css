@@ -1,0 +1,35 @@
+html {
+    background-color: #ffffff;
+}
+
+.color-bar {
+    background-color: #C7D0D5;
+    height: 0.8rem;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 9rem;
+}
+
+.logo {
+    float: left;
+}
+
+.links {
+    display: inline-block;
+    list-style: none;
+    float: right;
+}
+
+.hero {
+    background-image: url("../images/pasta-527286.jpg");
+    background-repeat: no-repeat;
+    background-position: -40%;
+    background-size: cover;
+    padding: 21rem 0;
+}
+
+.intro {
+    margin-top: 3rem;
+}
